@@ -621,10 +621,10 @@ After successful Gold-layer processing, open the Databricks SQL Dashboard to ana
 - Enhanced dashboard drill-downs
 ```
 ## Author & Contact
-```
+
 **Neeruj Vijayvargiya**
 ETL Developer | Data Engineer
-
+```
 Core Skills:-
 SQL
 T-SQL
