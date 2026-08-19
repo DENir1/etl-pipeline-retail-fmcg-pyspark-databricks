@@ -622,7 +622,7 @@ After successful Gold-layer processing, open the Databricks SQL Dashboard to ana
 ```
 ## Author & Contact
 
-**Neeruj Vijayvargiya**
+**Neeruj Vijayvargiya**<br>
 ETL Developer | Data Engineer
 ```
 Core Skills:-
