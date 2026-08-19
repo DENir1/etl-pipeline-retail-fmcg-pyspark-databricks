@@ -507,18 +507,36 @@ The job coordinates the data-processing workflow across the setup, dimension and
 
 ```
 etl-pipeline-retail-fmcg-pyspark-databricks/
-│
+
 ├── README.md
 │
-├── notebooks/
-│   ├── 01_setup/
-│   ├── 02_dimension_data_processing/
-│   └── 03_fact_data_processing/
+├── dashboard/
+│   └── FMCG Business Insights.pdf
 │
 ├── data-source/
+│   ├── full_load_source_file/
+│   │   ├── customers/
+│   │   ├── gross_price/
+│   │   ├── products/
+│   │   └── orders/
+│   │       └── landing/
+│   └── incremental_load_source_file/
+│       └── orders/
 │
-└── dashboard/
-    └── dashboard.pdf
+└── notebooks/
+    ├── 01_setup/
+    │   ├── 1_retail_setup_catalog.py
+    │   ├── 2_retail_dim_date_tbl.py
+    │   └── 3_utilities.py
+    │
+    ├── 02_dimension_data_processing/
+    │   ├── 1_customer_data_processing_retail.py
+    │   ├── 2_products_data_processing_retail.py
+    │   └── 3_pricing_data_processing_retail.py
+    │
+    └── 03_fact_data_processing/
+        ├── 1_full_load_fact_retail.py
+        └── 2_incremental_fact_retail.py
 ```
 ---
 
